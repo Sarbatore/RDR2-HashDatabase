@@ -1,5 +1,7 @@
 # Red Dead Redemption 2 - Hash Database
 
+For better data viewing, you can access the associated tool : https://rdr2.sarbatore.fr/
+
 This repository contains data directly extracted from Red Dead Redemption 2 using specific functions. It provides a mapping between the game's internal hashes and their human-readable equivalents.
 
 *Disclaimer: This project is not affiliated with Rockstar Games.*
