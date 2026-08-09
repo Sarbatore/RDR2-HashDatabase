@@ -45,3 +45,13 @@ local shopCategory = GetShopItemComponentCategory(`HORSE_EQUIPMENT_MANE_SHORT_01
 ```lua
 local _, inventoryRequirement = RDR:ItemdatabaseGetShopInventoriesRequirementInfo(`ST_CLOTHING`, `CLOTHING_ITEM_M_BEARD_006_DARK_BLONDE`, 0, 0)
 ```
+
+### [Wearable States](./WearableStates.json)
+```lua
+UpdateShopItemWearableState(ped, componentHash, `CHEMISE_COAT_OPEN`, 0, true, 1)
+```
+
+### [Effect Ids](./ItemEffectIds.json)
+```lua
+local _, effectIds = RDR:ItemdatabaseFilloutItemEffectIds(`WEAPON_REVOLVER_LEMAT`)
+```
