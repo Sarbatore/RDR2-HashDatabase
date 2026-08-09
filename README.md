@@ -48,7 +48,7 @@ local _, inventoryRequirement = RDR:ItemdatabaseGetShopInventoriesRequirementInf
 
 ### [Wearable States](./WearableStates.json)
 ```lua
-UpdateShopItemWearableState(ped, componentHash, `CHEMISE_COAT_OPEN`, 0, true, 1)
+local wearableState = GetShopItemWearableStateByIndex(componentHash, wearableStateIndex, isMpFemale, true)
 ```
 
 ### [Effect Ids](./ItemEffectIds.json)
